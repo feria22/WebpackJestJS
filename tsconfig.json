@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "lib": ["es2022","dom"],
+      "module": "es2022",
+      "preserveConstEnums": true,
+      "moduleResolution": "node",
+      "strict": true,
+      "sourceMap": true,
+      "target": "es2022",
+      "types": ["node","jest"],
+      "jsx":"react"
+    },
+    "include": ["src/**/*","__test__/**/*"],
+    "exclude": ["node_modules",  
+    "build",
+    "coverage",
+    "webpack.*.js",
+    "*.config.js",
+    "__webpack__/**/*",
+    "**/*.test.ts*"]
+  }
